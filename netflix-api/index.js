@@ -3,7 +3,7 @@ const userRoutes = require("./routes/UserRoutes");
 const cors =require("cors");
 const mongoose = require("mongoose");
 const dotenv =require('dotenv')
-var gi = require(`gitignore`);
+
 const app=express();
 app.use(express());
 app.use(cors());
